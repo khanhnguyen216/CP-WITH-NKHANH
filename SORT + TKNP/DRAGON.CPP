@@ -34,7 +34,7 @@ int n, s, ok = 0;
 pii p[maxN + 1];
 
 void init(){
-    cin >> n >> s;
+    cin >> s >> n;
     FOR(i, 0, n) cin >> p[i].fi >> p[i].sec;
 }
 
