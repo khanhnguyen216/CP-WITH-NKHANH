@@ -1,3 +1,5 @@
+/* Tìm 2 cặp số ai, aj sao cho ai - aj = k */
+
 /*[Keep coding and you will get bugs! :D]*/
 /* --------------------------------------*/
 /*     khnguyen21th06 on screen yah~~    */ 
