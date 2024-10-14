@@ -1,3 +1,5 @@
+// Code thử nghiệm chia subtask tuỳ dữ liệu đầu vào (Kiểm tra 1 số có phải là số hoàn hảo hay không?)
+
 /*[Keep coding and you will get bugs! :D]*/
 /* --------------------------------------*/
 /*     khnguyen21th06 on screen yah~~    */ 
