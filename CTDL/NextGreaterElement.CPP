@@ -50,7 +50,7 @@ void solve(){
                 b[st.top()] = a[i];
                 st.pop();
             }
-            st.push(i);
+            st.push(i); // tiếp tục đẩy i vào stack để phòng TH nếu điều kiện vòng while sai -> xử lí được a[i] cho các TH tiếp theo
         }
     }
     while (!st.empty()){
