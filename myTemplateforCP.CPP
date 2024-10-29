@@ -54,7 +54,8 @@ _nkhanhcp{
     freopen("TASK.inp", "r", stdin);
     freopen("TASK.out", "w", stdout);
     
-
+    init();
+    solve();
     
     cerr << "Time elapsed: " << TIME << "s.\n";
     return 0;
