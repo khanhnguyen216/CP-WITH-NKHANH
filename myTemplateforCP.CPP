@@ -31,8 +31,10 @@ typedef map<int, int> mii;
 typedef map<int, ll> mill;
 typedef map<ll, int> mlli;
 typedef map<ll, ll> mll;
-typedef unordered_map<int> umi;
-typedef unordered_map<ll> umll;
+typedef unordered_map<int, int> umi;
+typedef unordered_map<int, ll> umill;
+typedef unordered_map<ll, int> umlli;
+typedef unordered_map<ll, ll> umll;
 
 const int N = (int)3e6 + 9;
 const int maxN = (int)1e6;
@@ -52,8 +54,7 @@ _nkhanhcp{
     freopen("TASK.inp", "r", stdin);
     freopen("TASK.out", "w", stdout);
     
-    init();
-    solve();
+
     
     cerr << "Time elapsed: " << TIME << "s.\n";
     return 0;
