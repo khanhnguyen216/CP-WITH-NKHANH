@@ -7,6 +7,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+bool khnguyen21th06 = 0;
+bool check = 0;
+bool ok = 0;
+
 #define ll long long
 #define fi first
 #define sec second
@@ -21,8 +25,10 @@ using namespace std;
 #define hackSpeed ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 #define TIME (1.0 * clock() / CLOCKS_PER_SEC)
 
-typedef vector<int> vii;
+typedef vector<int> vi;
 typedef vector<ll> vll;
+typedef vector<vector<int>> vii;
+typedef vector<vector<ll>> vvll;
 typedef pair<int, int> pii;
 typedef pair<int, ll> pill;
 typedef pair<ll, int> plli;
@@ -35,6 +41,10 @@ typedef unordered_map<int, int> umi;
 typedef unordered_map<int, ll> umill;
 typedef unordered_map<ll, int> umlli;
 typedef unordered_map<ll, ll> umll;
+
+int gcd(int a, int b) {while (b != 0){int r = a % b;a = b;b = r;}return a;}
+int lg(int x) {return __lg(x);}
+int lcm(int a, int b) {return a / gcd(a, b) * b;}
 
 const int N = (int)3e6 + 9;
 const int maxN = (int)1e6;
