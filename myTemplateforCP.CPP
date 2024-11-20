@@ -18,9 +18,9 @@ bool ok = 0;
 #define pob pop_back
 #define lb lower_bound
 #define ub upper_bound
-#define FOR(i, a, b) for (int i = a; i < b; i++)
-#define fr(i, a, b) for (int i = a; i <= b; i++)
-#define frd(i, a, b) for (int i = b; i >= a; i--)
+#define FOR(i, a, b) for (int i = a; i < b; ++i)
+#define fr(i, a, b) for (int i = a; i <= b; ++i)
+#define frd(i, a, b) for (int i = b; i >= a; --i)
 #define _nkhanhcp signed main()
 #define hackSpeed ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 #define TIME (1.0 * clock() / CLOCKS_PER_SEC)
@@ -61,8 +61,8 @@ void solve(){
 
 _nkhanhcp{
     hackSpeed
-    freopen("TASK.inp", "r", stdin);
-    freopen("TASK.out", "w", stdout);
+    // freopen("TASK.inp", "r", stdin);
+    // freopen("TASK.out", "w", stdout);
     
     init();
     solve();
